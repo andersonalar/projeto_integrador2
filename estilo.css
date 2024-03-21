@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+   /*   background-image: linear-gradient(to top,white,#48B6F4);*/
+/* background: var(--gradients-bg-1, linear-gradient(122deg, #FFFEFE 10.89%, #48B6F4 90.9%));*/
+background-color: #48B6F4;
+
+}
+body#q1{
+/*background-position:  center center ;*/
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    color: #000;
+    height: 10vh;
+    background-color: #48B6F4;
+}
+
+nav{
+text-align:right;
+margin-right: 20px;
+background-color: #48B6F4;
+
+
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: #555845;
+    margin-right: 50px;
+
+}
+main{
+height: 800px;
+background-color: #48B6F4;
+
+}
+#home p {
+
+    height: 50px;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: -30px;
+    margin-right: 100px;
+}
+#home h1{
+
+     height: 50px;
+    width: 400px;
+    margin-left: 400px;
+     margin-top:-150px;
+}
+table{
+
+    margin-top: 0px;
+}
+
+
+
+#figura{
+
+
+ width: 400px;
+    height: 500px;
+
+    
+}
+section{
+
+    height: 800px;
+    background-color: white;
+}
+section h1{
+
+
+    text-align: center;
+}
+
+#container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+#container img{
+
+    border-radius: 15px;
+}
+
+
+
+.card{
+    background-color: #fff;
+    width: 24%;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 8 4px 8px #000;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+footer {
+    color:white;
+    background-color:  black;
+    height: 70px;
+    text-align: center;
+
+}
+#servicos{
+
+height: 700px;
+background-color:#48B6F4 ;
+
+
+}
+#servicos table{
+
+    align-items: center;
+    color: white;
+}
+#servicos table td{
+
+    width: 300px;
+
+}
+#servicos h1{
+
+    color: white;
+}
+.direita{
+
+    text-align: right;
+    color: white;
+}
+#agendamento{
+
+    height: 1100px;
+    background-color: white;
+}
+#agendamento h1{
+
+    text-align: center;
+}
+#pag-agendamentos p{
+    text-align: center;
+
+}
+form{
+
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+input,select,textarea{
+
+    width: 100%;
+    padding: 0.3em;
+    box-sizing: border-box;
+    font-weight: 300;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    margin: 5px  0 20px 0;
+    font: 1.4rem 'Poppins', sans-serif;
+}
+input[type="submit"],input[type="reset"]{
+background-color: #8bc34a;
+border-radius: 10px;
+color: #fff;
+border: none;
+
+}
+
+input[type="reset"]{
+    background-color: #f47e7e;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
