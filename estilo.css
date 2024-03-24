@@ -57,6 +57,7 @@ background-color: #48B6F4;
     margin-right: 100px;
 }
 #home h1{
+    text-align: left;
 
      height: 50px;
     width: 400px;
@@ -146,7 +147,7 @@ background-color:#48B6F4 ;
     text-align: right;
     color: white;
 }
-#agendamento{
+#agendamentos{
 
     height: 1100px;
     background-color: white;
@@ -192,6 +193,40 @@ input[type="reset"]{
     background-color: #f47e7e;
     margin-left: 20px;
 
+}
+.login h1 {
+
+    text-align: left;
+}
+.login form{
+    
+
+    display: flex;
+    flex-direction: column;  
+}
+.login input{
+
+    margin-top: 10px;
+    border-radius: 4px;
+
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+}
+#form2{
+
+    height: 500px;
+}
+#m2{
+
+    height: 900px;
+}
+#contatos {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#48B6F4 ;
 }
 
 

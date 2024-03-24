@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+  background: var(--gradients-bg-1, linear-gradient(122deg, #48B6F4 10.89%, #48B6F4 90.9%));
+}
+table {
+   width:50%;
+  height: 50vh;
+    border-collapse: collapse;
+    margin-left: 25%;
+    margin-top: 150px;
+  }
+  
+  table, th, td {
+    border-radius: 5px;
+    border: 4px solid #000;
+    background: var(--accent-light, white);
+    padding: 8px
+    
+  }
+  
+  th {
+    color: rgb(0, 0, 0);
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  h2{
+  text-align: center;
+ color: #000;
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+margin-top: 100px;
+  }
+
+  img{
+    width: 20px;
+    height: 20px;
+  padding-left: 15px;
+  }
+
