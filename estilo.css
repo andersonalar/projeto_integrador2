@@ -10,6 +10,7 @@ body {
    /*   background-image: linear-gradient(to top,white,#48B6F4);*/
 /* background: var(--gradients-bg-1, linear-gradient(122deg, #FFFEFE 10.89%, #48B6F4 90.9%));*/
 background-color: #48B6F4;
+height: 100%;
 
 }
 body#q1{
