@@ -7,11 +7,9 @@ body {
     box-sizing: border-box;
     width: 100%;
     overflow-x: hidden;
-    
    /*   background-image: linear-gradient(to top,white,#48B6F4);*/
 /* background: var(--gradients-bg-1, linear-gradient(122deg, #FFFEFE 10.89%, #48B6F4 90.9%));*/
 background-color: #48B6F4;
-
 
 }
 body#q1{
@@ -150,9 +148,8 @@ background-color:#48B6F4 ;
     color: white;
 }
 #agendamentos{
+
     height: 1100px;
-
-
     background-color: white;
 }
 #agendamento h1{
@@ -231,10 +228,88 @@ input[type="reset"]{
     align-items: center;
     background-color:#48B6F4 ;
 }
-.b{
+@media screen and (max-width: 390px){
 
-    size: 10px;
+nav,main,aside{
+    width:100%;
 }
+nav{
+    width: 100%;
+
+    height: 60px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+font-size: 0.7em;
+height: 200px;
+
+
+}
+aside{
+    width: 100%;
+
+height: 200px;
+display: flex;
+font-size: 1.2em;
+}
+
+img{
+
+
+}
+nav{
+    display: flex;
+  font-size: 10px;
+}
+nav a{
+    margin-left: 1px;
+    margin-right: 3px;
+}
+#figura{
+    
+
+    
+    
+    text-align: left;
+
+             position: absolute;
+top: 50%;
+left: 50%;
+transform: translateY(-50%) translateX(-50%)
+
+         
+
+        }
+
+        #home{
+
+            height: 500px;
+        }
+
+.card{
+
+
+
+
+}
+.m{
+
+    width: 20px;
+    height: 20px;
+
+}
+.card-content{
+    display: flex;
+}
+
+  
+
+
+
+
 
 
 
