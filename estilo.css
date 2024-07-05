@@ -297,12 +297,20 @@ transform: translateY(-50%) translateX(-50%)
 }
 .m{
 
-    width: 20px;
-    height: 20px;
+   
 
 }
 .card-content{
     display: flex;
+}
+#container{
+
+    display: flex;
+    flex-direction: column;
+}
+#servicos{
+
+margin-top: 2000px;
 }
 
   
